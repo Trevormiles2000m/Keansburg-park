@@ -1,0 +1,67 @@
+/* Background & Page Layout */
+.aboutus-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  background: url('../assets/gallery4.jpg') center/cover no-repeat;
+  padding: 40px 20px;
+}
+
+/* About Us Content Container */
+.aboutus-content {
+  max-width: 900px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Section Styling */
+.aboutus-section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  color: #e74c3c;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Disclaimer Section */
+.disclaimer {
+  max-width: 900px;
+  width: 100%;
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Links and Contact */
+.email {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .aboutus-content, .disclaimer {
+    width: 90%;
+  }
+  .section-title {
+    font-size: 2rem;
+  }
+}
